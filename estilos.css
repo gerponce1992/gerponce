@@ -1,7 +1,10 @@
 .titulo {
-padding: 1em;
+padding: 2em;
 height: 10em;
+max-width: 100%;
 background-color: brown;
+display: flex;
+align-items: center;
 }
 
 
@@ -10,7 +13,7 @@ background-color: brown;
     text-align:center;
     font-size: 5em;
     font-family: 'Fjalla One', sans-serif;
- 
+    width: 100%;
     color: bisque;
 }
 
