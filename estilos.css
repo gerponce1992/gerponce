@@ -1,0 +1,83 @@
+.titulo {
+padding: 1em;
+height: 10em;
+background-color: brown;
+}
+
+
+
+.titulo h1{
+    text-align:center;
+    font-size: 5em;
+    font-family: 'Fjalla One', sans-serif;
+ 
+    color: bisque;
+}
+
+.imagen {
+background-image: url(deportesaereos.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+height: 30em;
+border-radius: 0.5em;
+    
+
+}
+
+
+
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: bisque;
+    justify-content:center ;
+    
+}
+.tarjeta:hover {
+    box-shadow: 5px 5px 15px #000 ;
+    transition: .5s;
+}
+
+.tarjeta a:visited, .tarjeta a:link , .tarjeta a:active{
+    text-decoration: none;
+    color: bisque;
+}
+
+.tarjeta {
+    width: 20em;
+    background-color: brown;
+    
+    margin: 0.5rem;
+    padding: em;
+    border-radius: 0.5em;
+    border: black;
+    transition: .5s;
+}
+
+.marcoTarjeta {
+    background-color:brown;
+    padding:1em;
+    border-radius: 0.5em;
+  
+}
+
+
+.marcoTarjeta img {
+max-width: 100%;
+}
+
+
+.textoTarjeta h2{
+  text-align: center;
+  font-size: 3em;
+}
+
+.piedepagina{
+    background-color:bisque;
+    padding: 1rem;
+    border-radius: 0.5em;
+    text-align: center;
+}

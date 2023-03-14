@@ -1,0 +1,44 @@
+* {
+    background-color: bisque;
+}
+.titulo{
+background-color:brown;
+text-align: center;
+font-size: 40px;
+color: tomato;
+
+}
+
+
+
+.titulo a:visited, .titulo a:link , .titulo a:active{
+    text-decoration: none;
+    color: tomato;
+}
+
+.descripcion {
+    color: tomato;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.parrafo{
+    font-size: 2em;
+    max-width: 100%;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
